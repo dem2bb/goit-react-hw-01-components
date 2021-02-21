@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import "./components/profiles.css";
+import "./components/Profiles/profiles.css";
 
 ReactDOM.render(
   <React.StrictMode>
