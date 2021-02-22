@@ -1,0 +1,29 @@
+.item {
+  margin-bottom: 15px;
+  display: flex;
+  width: 160px;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.item:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.status_online {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50%;
+}
+.status_offline {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: 600;
+}
